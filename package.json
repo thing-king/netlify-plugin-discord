@@ -28,7 +28,8 @@
   "scripts": {
     "package-check": "run-s lint format",
     "lint": "eslint ./lib/*.js",
-    "format": "prettier ./lib/*.js --write"
+    "format": "prettier ./lib/*.js --write",
+    "push": "git commit -am 'Changes!' && npm version patch && git push && npm publish"
   },
   "dependencies": {
     "axios": "^0.21.1"
