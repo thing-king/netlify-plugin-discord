@@ -1,7 +1,7 @@
 {
-  "name": "netlify-plugin-discord",
+  "name": "@thing-king/netlify-plugin-discord",
   "version": "0.0.2",
-  "description": "Netlify Build plugin - Discord webhook notifications",
+  "description": "@thing-king Netlify Build plugin - Discord webhook notifications",
   "main": "lib/index.js",
   "files": [
     "lib",
